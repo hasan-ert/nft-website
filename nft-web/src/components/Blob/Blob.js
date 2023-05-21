@@ -1,7 +1,7 @@
 import React from "react";
 
 // Css
-import { Canvas } from "react-three-fiber";
+import { Canvas } from "@react-three/fiber";
 import { Sphere, MeshDistortMaterial } from "@react-three/drei";
 export default function Blob({
     canvasWidth = "300px",
