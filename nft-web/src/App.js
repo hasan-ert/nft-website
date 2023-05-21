@@ -7,6 +7,7 @@ import CustomNavbar from "./components/Navbar/Navbar";
 import handleScroll from "./utils/ScrollTo";
 import Hero from "./components/Hero/Hero";
 import AboutUs from "./components/AboutUs/AboutUs";
+import Roadmap from "./components/Roadmap/Roadmap";
 function App() {
     return (
         <div className="App">
@@ -14,6 +15,7 @@ function App() {
                 <CustomNavbar scrollHandler={handleScroll}></CustomNavbar>
                 <Hero />
                 <AboutUs />
+                <Roadmap />
             </Container>
         </div>
     );
