@@ -1,0 +1,43 @@
+@use "../../base.scss";
+
+#aboutus-main-container{
+    display: block;
+    padding-block: 5rem !important;
+    
+    .about-us-card{
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.3px);
+        -webkit-backdrop-filter: blur(6.3px);
+        padding-block: 3rem !important;
+        padding-inline: 5rem !important;
+        .blob-col{
+            display: flex;
+            justify-content: center;
+            
+        }
+        %header{
+            text-align: center;
+            text-transform: uppercase;
+            color: base.$primary-white;
+           }
+
+        h1{
+            @extend %header;
+            font-size: 28pt;
+            font-weight: bold
+           }
+           h3{
+            @extend %header;
+            font-size: 24pt;
+            margin-bottom: 2rem;
+           }
+    
+           p{
+            font-size: 14pt;
+            text-align: justify;
+            color: base.$text-white;
+           }
+    }
+}

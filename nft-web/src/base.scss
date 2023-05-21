@@ -1,0 +1,18 @@
+$primary-black: #171718;
+$primary-white: #e6e6e6;
+$primary-color-dark: #6800a5;
+$primary-color-mid: #5838ce;
+$primary-color-light: #00caff;
+$secondary-color-mid: #F5B301;
+$secondary-color-light: #FED053;
+$secondary-color-dark: #d9b100;
+$text-white: rgb(193, 193, 193);
+$text-dark: rgb(61, 61, 61);
+$text-light-dark: rgb(95, 95, 95);
+$text-colored: #00caff;
+
+.App {
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(41deg, rgba(2,0,36,1) 0%, rgba(104,0,165,1) 39%, rgba(88,56,206,1) 67%, rgba(0,202,255,1) 100%);
+  }

@@ -12,7 +12,7 @@ export default function Blob() {
                 <MeshDistortMaterial
                     speed={2}
                     distort={0.5}
-                    color="#6d1a99"
+                    color="#5838ce"
                     roughness={0}
                 ></MeshDistortMaterial>
             </Sphere>
